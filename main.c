@@ -1,18 +1,15 @@
 #include <stdio.h>
-
 int main()
 {
+   
+int k,i=50,j=100,l;
 
-   int i ,j ,count; 
-   count = 0;
-   i = 0;
-   for (j = -3; j <= 3; j++)
+i=i|(j&&100);
 
-      if ((j >= 0) && (i++))
-         count = count + j;
+k=i||(j||100) ;
 
-   count = count + i;
-   printf("%d", count);
+l=i&(j&&100);
 
-   return 0;
+printf("%d %d\n", i,j);
+printf("%d %d", k, l);
 }
