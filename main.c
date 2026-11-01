@@ -1,20 +1,18 @@
-#include <stdio.h> // Preprocessor directive for input/output functions
+#include <stdio.h>
 
 int main()
 {
-   int num = 31;
-   switch (num)
-   {
 
-   case 1:
-      printf("\ncase1\n");
+   int i ,j ,count; 
+   count = 0;
+   i = 0;
+   for (j = -3; j <= 3; j++)
 
-   case 2:
-      printf("\ncase2\n");
+      if ((j >= 0) && (i++))
+         count = count + j;
 
-   default:
-      printf("\nlol\n");
-   }
+   count = count + i;
+   printf("%d", count);
 
    return 0;
 }
