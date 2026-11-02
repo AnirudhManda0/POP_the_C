@@ -1,0 +1,43 @@
+• P — Primary (Parentheses (), brackets [], member selection ->, .)
+• U — Unary (++, --, +, -, !, ~, sizeof)
+• M — Multiplicative (*, /, %)
+• A — Additive (+, -)
+• S — Shift (<<, >>)
+• R — Relational (<, <=, >, >=)
+• E — Equality (==, !=)
+• B — Bitwise (&, ^, |)
+• L — Logical (&&, then ||)
+• A — Assignment (=, +=, -=, etc.)
+• C — Comma (,)
+
+P - Primary
+
+U - Unary
+
+M - Multiplicative
+
+A - Additive
+
+S- Shift
+
+R- Relational
+
+E- Equality
+
+B- BitWise ( & > ^ > |)
+
+L- Logical ( logical && > logical ||)
+
+and the last three operators are
+
+T- Ternary
+
+A- Assignment
+
+C- Comma
+
+If you need a shortcut for 
+Assosiativity then
+"AUTo rides in the right side", meaning Assignment, 
+Unary and Ternary operators are Right to Left,
+ O is added for completion.
